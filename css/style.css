@@ -15,7 +15,7 @@ button:hover{
 
 header{
   background-color: #FBFBFB;
-  padding-top: 80px;
+  padding-top: 12vh;
 }
 
 h1{
@@ -29,8 +29,8 @@ h1{
   color: #2FD436;
 }
 
-.col-contents1{
-  font-size: 4vw;
+.col-contents1 h2{
+  font-size: 3.8vw;
 }
 
 .col-contents2 img{
@@ -38,18 +38,16 @@ h1{
   height: auto;
 }
 
-.row-header{
-  display: flex;
-}
-
 .row-header p{
   font-size: 1vw;
 }
 
 .button{
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   width:100%;
   height: auto;
+  margin-bottom: 146px;
 }
 
 /* 右側の余白？どの画像が大きい？ */
@@ -85,9 +83,11 @@ vwサイズは目視？ */
   justify-content: center;
   border-top:solid 5px #2FD436;
   border-bottom:solid 5px #2FD436;
-  margin-top: 146px;
+  /* margin-top: 146px; */
   padding-top:20px;
   padding-bottom: 20px;
+  width:50vw;
+  margin: 0 auto;
 }
 
 .point h3{
@@ -96,8 +96,10 @@ vwサイズは目視？ */
   display: flex;
   justify-content: center;
   border-bottom:solid 5px #2FD436;
-  margin-top: 52px;
-  padding-bottom: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:50vw;
+  margin:0 auto;
 }
 
 .point h4{
@@ -163,9 +165,12 @@ vwサイズは目視？ */
   justify-content: center;
   padding-top: 46px;
   border-bottom:solid 5px #2FD436;
+  width:30vw;
+  margin:0 auto;
 }
 
 .point-2__contents2{
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -229,9 +234,12 @@ vwサイズは目視？ */
   justify-content: center;
   padding-top: 46px;
   border-bottom:solid 5px #2FD436;
+  width:20vw;
+  margin:0 auto;
 }
 
 .point-3__contents2{
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -293,6 +301,8 @@ vwサイズは目視？ */
   display: flex;
   justify-content: center;
   padding-top: 46px;
+  width:20vw;
+  margin: 0 auto;
 }
 
 .point-4__contents2{
@@ -301,6 +311,7 @@ vwサイズは目視？ */
   text-align: center;
   font-size: 30px;
   color: #E02355;
+  padding-top: 20px;
 }
 
 .row-point4{
@@ -338,8 +349,140 @@ vwサイズは目視？ */
 
 .row-flow{
   flex-direction: column;
+  justify-content: space-between;
 }
 
+.row-flow__contents1{
+  display: flex;
+}
+
+.row-flow__contents1 img{
+  padding-right: 1vw;
+  object-fit: contain;
+}
+
+.span1-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span1-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents1 p{
+  color:#FFFFFF
+}
+
+.row-flow__contents2{
+  display: flex;
+}
+
+.row-flow__contents2 img{
+  padding-right: 1vw;
+}
+
+.span2-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span2-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents2 p{
+  color:#FFFFFF
+}
+
+.row-flow__contents2 p{
+  color:#FFFFFF
+}
+
+.row-flow__contents2{
+  display: flex;
+}
+
+.row-flow__contents2 img{
+  padding-right: 1vw;
+  object-fit: contain;
+}
+
+.span2-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span2-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents3{
+  display: flex;
+}
+
+.row-flow__contents3 img{
+  padding-right: 1vw;
+  object-fit: contain;
+}
+
+.span3-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span3-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents3 p{
+  color:#FFFFFF
+}
+
+
+.row-flow__contents4{
+  display: flex;
+}
+
+.row-flow__contents4 img{
+  padding-right: 1vw;
+  object-fit: contain;
+}
+
+.span4-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span4-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents4 p{
+  color:#FFFFFF
+}
+
+.row-flow__contents5{
+  display: flex;
+}
+
+.row-flow__contents5 img{
+  padding-right: 1vw;
+  object-fit: contain;
+}
+
+.span5-1{
+  color:#042378;
+  font-size:1.2vw;
+}
+
+.span5-2{
+  font-size: 1.4vw;
+}
+
+.row-flow__contents5 p{
+  color:#FFFFFF
+}
 .button-flow{
   padding-top: 60px;
   padding-bottom: 45px;
